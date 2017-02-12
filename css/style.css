@@ -23,9 +23,10 @@ body{ background: url(../images/bg.jpg) center 0 no-repeat #000; border:0; font:
 
 /* ============================= main layout ====================== */
 
-a{ color:#7f7f7f; text-decoration: underline; outline:none}
+a{ color:#7f7f7f; text-decoration: none; outline:none}
+ul, ol {list-style: none}
 a:hover{ text-decoration: none}
-h1{ padding:35px 0 0 43px;}
+h1{ padding:55px 0 0 43px;}
 h2{ font-size:40px; color:#fff; line-height:1.2em; padding:20px 0 14px 0; letter-spacing:-3px; font-weight:400; margin-left:-2px;}
 h2#welcom{ font-size:61px; line-height:1.2em; padding:0 0 9px 0; letter-spacing:-5px; margin-left:-5px;}
 h2 strong{ font-weight:700; color:#7532a9;}
@@ -36,7 +37,7 @@ p{ padding-bottom:25px;}
 /* ============================= header ====================== */
 header{ height:205px;}
 
-#logo{ display:block; text-indent:-9999px; width:273px; height:86px;}
+#logo1{ display:block; width:600px; height:86px;font-size: 2.4em;color: white;font-family: 'Lobster', cursive;font-weight: 100}
 
 #menu { width:100%; overflow:hidden; background:url(../images/menu_line.png) 0 0 no-repeat}
 #menu > li { float:left; padding-right:2px; background:url(../images/menu_line.png) right 0 no-repeat}
