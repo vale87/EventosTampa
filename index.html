@@ -1,32 +1,159 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Eventos Tampa</title>
+<html class="no-js" lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Eventos Tampa</title>
+		<meta content="" name="description">
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/animatedmenu.css" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" href="css/animatedmenu.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+		<script src="js/main.js"></script>
+		<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<!--[if lt IE 9]>
+		<p class="browserupgrade">
+			Estás usando un navegador
+			<strong>desactualizado.</strong>
+			Por favor
+			<a href="http://browsehappy.com/">
+				actualiza tu navegador
+			</a>
+			para una mejor experiencia
+		</p>
+		<![endif]-->
+		<header>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<body id="page1">
-	<div class="bg1">
-		<div class="main">
-	<header>
-		<nav>
-			<div class="container borderYtoX menu">
-				<a>Eventos</a>
-				<a>Patrocinadores</a>
-				<a>Tienda</a>
-				<a>Galeria</a>
+			<nav class="page relative ">
+
+				<div class="containermenu topLeftBorders absolute  text-left">
+						<ul class="list-inline ">
+							<li><a>Eventos</a></li>
+							<li><a>Patrocinadores</a></li>
+							<li><a>Tienda</a></li>
+							<li><a>Galeria</a></li>
+						</ul>
+				</div>		
+
+			<!-- .social -->
+				<div class="social text-right">
+					<ul class="list-inline">
+						<li class="facebook">
+							<a target="_blank" href="#" title="Facebook">
+								<img src="img/facebook.png">
+							</a>
+						</li>
+					</ul>
+				</div>
+				</nav>
+
+			<div class="logo">
+				<h1><a id="logo" href="index.html" title="Falco">
+					<img class="scale-with-grid" src="" alt=""/>
+					Eventos Tampa
+					</a>
+				</h1>
 			</div>
-	</nav>
-	<h1><a href="index.html" id="logo">Eventos en Tampa</a></h1>
-</header>
-<article>
-	<section>
-		
 
-	</section>
-</article>
-</body>
+
+
+		</header>
+
+				<section>
+					<div id="myNextEvent" class="carousel slide" data-ride="carousel">
+						<!-- Indicators -->
+						<ol class="carousel-indicators">
+							<li data-target="#myNextEvent" data-slide-to="0" class="active"></li>
+							<li data-target="#myNextEvent" data-slide-to="1"></li>
+							<li data-target="#myNextEvent" data-slide-to="2"></li>
+						</ol>
+
+						<!-- Wrapper for slides -->
+						<div class="carousel-inner" role="listbox">
+
+							<div class="item active">
+								<img src="img/gallery_big_img7.jpg" alt="...">
+							</div>
+
+							<div class="item">
+								<img src="img/gallery_big_img8.jpg" alt="...">
+							</div>
+
+							<div class="item">
+								<img src="img/gallery_big_img9.jpg" alt="...">
+							</div>
+
+						</div>
+
+						<!-- Controls -->
+						<a class="left carousel-control" href="#myNextEvent" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="right carousel-control" href="#myNextEvent" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</section>
+
+				
+
+
+    <div class="row center-block">
+      <div class="col-xs-6 col-sm-6">
+      <section>
+        					<h2>Proximos Eventos</h2>
+						<div id="gallery1">
+							<ul>
+								<li>
+								<div class="next-event">
+																	<span class="dropcap_1">30<span>august</span></span>
+									<p><span class="color1">Lorem ipsum dolor sit amet</span><br>
+											adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+											<a href="#" class="link1">View Details</a></p>
+											</div>
+								</li>
+								<li>
+								<div class="next-event">
+																	<span class="dropcap_1">30<span>august</span></span>
+									<p><span class="color1">Lorem ipsum dolor sit amet</span><br>
+											adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+											<a href="#" class="link1">View Details</a></p>
+											</div>
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="next"></a>
+						<a href="#" class="prev"></a>
+				</section>
+
+      </div>
+      <div class="col-xs-1 col-sm-1">
+      <section>
+        						<div class="phone">
+							<h2>Order Tickets</h2>
+							<p>Free Phone<span>8-800-123-NIGHT</span></p>
+						</div>
+						</section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+				
+					
+				
+			</div>
+		</div>
+	</body>
 </html>
