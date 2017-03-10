@@ -102,7 +102,9 @@ body{
 	padding-left: 10%;
 	padding-right: 10%;
 	background: #fff;
-	color: black;
+	color: white;
+    background: url(../img/bg.jpg) center 0 no-repeat #000;
+    background-size: cover;
 }
 
 /* Global Structure ============================================================= */
@@ -127,7 +129,6 @@ nav{
 	display:block; 
 	font-family: 'Sansita', sans-serif;
 	font-size: 1.5em;
-	color:black !important;
     text-decoration: none !important;
 	letter-spacing:1px;
 	margin: 0px 0px;
@@ -143,15 +144,15 @@ nav{
 
 /* ============================= content ====================== */
 .carousel{
-	height: 400px;
 	display: block;
     margin: auto;
-
+    margin: 10px 10px 0px 10px;
     overflow: hidden;
 }
 .carousel img
 {
     width: 100%;
+    object-fit: cover;
 }
 .next-event{
 	margin-bottom: 30px;
@@ -206,7 +207,7 @@ nav{
 	margin-top: 10px
 }
 .page{
-	background: rgba(fff,fff,0,0.9);
+	background: rgba(0,0,0,0.9);
 }
 .absolute
 {
